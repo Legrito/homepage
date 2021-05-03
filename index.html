@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta property="og:description" content="&mdash; Hello! I’m a skilled frontend developer with 7 years of experience in UI/UX design, application development, and database modeling. I strive to craft precise, responsive, fast, easy-to-use environments with both strong purpose and great looks.">
@@ -20,14 +20,16 @@
   <body>
     <main>
       <article>
+        <div class="flowers-wrap">
+          <img src="./img/flowers.png" alt="Flowers" class="flowers">
         <div class="page" style="border-color: midnightblue;">
           <div class="stackable grid">
             <div class="row">
               <div class="three wide center aligned column">
                 <div class="avatar-wrapper">
-                  <object class="avatar" data="./assets/images/avatar.svg" role="img" aria-label="My profile picture">
                     <img src="./img/about-img.jpg" width ="150" alt="Lesya Stulkivska">
-                  </object>
+                    <img src="./img/crown.png" alt="Crown" class="crown">
+                    <img src="./img/magic-wand.png" alt="Magic wand" class="magic-wand">
                 </div>
               </div>
               <div class="thirteen wide column">
@@ -37,19 +39,19 @@
                     <div class="job">full stack developer</div>
                     <ul class="contacts">
                       <li>
-                        <a href="https://www.facebook.com/lesya.stulkivskaia/" rel="author" class="facebook">
+                        <a href="https://www.facebook.com/lesya.stulkivskaia/" rel="author noopener noreferrer" class="facebook">
                           <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M448 56.7v398.5c0 13.7-11.1 24.7-24.7 24.7H309.1V306.5h58.2l8.7-67.6h-67v-43.2c0-19.6 5.4-32.9 33.5-32.9h35.8v-60.5c-6.2-.8-27.4-2.7-52.2-2.7-51.6 0-87 31.5-87 89.4v49.9h-58.4v67.6h58.4V480H24.7C11.1 480 0 468.9 0 455.3V56.7C0 43.1 11.1 32 24.7 32h398.5c13.7 0 24.8 11.1 24.8 24.7z"/></svg>
                           <span>lesyastulkivska</span>
                         </a>
                       </li>
                       <li>
-                        <a href="mailto:jamma@i.ua" rel="author" class="mail">
+                        <a href="mailto:jamma@i.ua" rel="author noopener noreferrer" class="mail">
                           <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M502.3 190.8c3.9-3.1 9.7-.2 9.7 4.7V400c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V195.6c0-5 5.7-7.8 9.7-4.7 22.4 17.4 52.1 39.5 154.1 113.6 21.1 15.4 56.7 47.8 92.2 47.6 35.7.3 72-32.8 92.3-47.6 102-74.1 131.6-96.3 154-113.7zM256 320c23.2.4 56.6-29.2 73.4-41.4 132.7-96.3 142.8-104.7 173.4-128.7 5.8-4.5 9.2-11.5 9.2-18.9v-19c0-26.5-21.5-48-48-48H48C21.5 64 0 85.5 0 112v19c0 7.4 3.4 14.3 9.2 18.9 30.6 23.9 40.7 32.4 173.4 128.7 16.8 12.2 50.2 41.8 73.4 41.4z"></path></svg>
                           <span>jamma@i.ua</span>
                         </a>
                       </li>
                       <li>
-                        <a href="https://github.com/Legrito" rel="author" class="github">
+                        <a href="https://github.com/Legrito" rel="author noopener noreferrer" class="github">
                           <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
                           <span>Lesya Stulkivska</span>
                         </a>
@@ -61,15 +63,9 @@
                         </a>
                       </li> -->
                       <li>
-                        <a href="tel:+380952600797" rel="author" class="phone">
+                        <a href="tel:+380979947786" rel="author" class="phone">
                           <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path d="M272 0H48C21.5 0 0 21.5 0 48v416c0 26.5 21.5 48 48 48h224c26.5 0 48-21.5 48-48V48c0-26.5-21.5-48-48-48zM160 480c-17.7 0-32-14.3-32-32s14.3-32 32-32 32 14.3 32 32-14.3 32-32 32z"></path></svg>
                           <span>+38 (097) 9947786</span>
-                        </a>
-                      </li>
-                      <li>
-                        <a href="https://volodymyrkushnir.com/" rel="author" class="website">
-                          <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><path fill="currentColor" d="M336.5 160C322 70.7 287.8 8 248 8s-74 62.7-88.5 152h177zM152 256c0 22.2 1.2 43.5 3.3 64h185.3c2.1-20.5 3.3-41.8 3.3-64s-1.2-43.5-3.3-64H155.3c-2.1 20.5-3.3 41.8-3.3 64zm324.7-96c-28.6-67.9-86.5-120.4-158-141.6 24.4 33.8 41.2 84.7 50 141.6h108zM177.2 18.4C105.8 39.6 47.8 92.1 19.3 160h108c8.7-56.9 25.5-107.8 49.9-141.6zM487.4 192H372.7c2.1 21 3.3 42.5 3.3 64s-1.2 43-3.3 64h114.6c5.5-20.5 8.6-41.8 8.6-64s-3.1-43.5-8.5-64zM120 256c0-21.5 1.2-43 3.3-64H8.6C3.2 212.5 0 233.8 0 256s3.2 43.5 8.6 64h114.6c-2-21-3.2-42.5-3.2-64zm39.5 96c14.5 89.3 48.7 152 88.5 152s74-62.7 88.5-152h-177zm159.3 141.6c71.4-21.2 129.4-73.7 158-141.6h-108c-8.8 56.9-25.6 107.8-50 141.6zM19.3 352c28.6 67.9 86.5 120.4 158 141.6-24.4-33.8-41.2-84.7-50-141.6h-108z"></path></svg>
-                          <span>https://volodymyrkushnir.com/</span>
                         </a>
                       </li>
                     </ul>
@@ -123,25 +119,52 @@
                   </li>
                   <h6>My works</h6>
                 <ul class="timeline">
-                  <li>
                     <ul>
-                      <li class="details">
-                        <input type="checkbox" id="other">
-                        <label for="other" class="summary"> I don't have commercial experiance<sup>yet</sup> but here is some of my pet projects</label>
+                        <p>I don't have commercial experiance<sup>yet</sup> but here is some of my pet projects</p>
                         <div>
                           <ul>
-                            <li><strong><a href="https://legrito.github.io/goit-js-hw-13-image-finder/" target="_blank" rel="external">Image search</a></strong></li>
-                            <li><strong><a href="https://legrito.github.io/goit-js-hw-11-timer/" target="_blank" rel="external">Timer</a></strong></li>
-                            <li><strong><a href="https://legrito.github.io/remember-that/" target="_blank" rel="external">RememberThat Template</a></strong></li>
-                            <li><strong><a href="https://legrito.github.io/goit-markup-hw-08/" target="_blank" rel="external">WebStudio Template</a></strong></li>
-                            <li><strong><a href="https://legrito.github.io/resume/" target="_blank" rel="external">Resume Template</a></strong></li>                            
+                            <li><strong><a href="https://legrito.github.io/goit-js-hw-13-image-finder/" target="_blank" rel="external noopener noreferrer">Image search</a></strong></li>
+                            <li><strong><a href="https://legrito.github.io/goit-js-hw-11-timer/" target="_blank" rel="external noopener noreferrer">Timer</a></strong></li>
+                            <li><strong><a href="https://legrito.github.io/remember-that/" target="_blank" rel="external noopener noreferrer">RememberThat Template</a></strong></li>
+                            <li><strong><a href="https://legrito.github.io/goit-markup-hw-08/" target="_blank" rel="external noopener noreferrer">WebStudio Template</a></strong></li>
+                            <li><strong><a href="https://legrito.github.io/resume/" target="_blank" rel="external noopener noreferrer">Resume Template</a></strong></li>                            
                           </ul>
                         </div>
-                      </li>
-                    </ul>
                   </li>
-                  </ul>                       
-              </div>
+                  </ul>
+                  <!-- Unicorn is here -->
+                  <div class="unicorn-wrap">
+                    <div class="unicorn">
+                        <div class="unicorn-body"></div>
+                        <div class="unicorn-butt">
+                            <div class="unicorn-tail"></div>
+                        </div>
+                        <div class="unicorn-feet-1 unicorn-feet"></div>
+                        <div class="unicorn-feet-2 unicorn-feet"></div>
+                        <div class="unicorn-upper">
+                            <div class="unicorn-neck-1">
+                                <div class="unicorn-hair"></div>
+                            </div>
+                            <div class="unicorn-neck-2"></div>
+                            <div class="unicorn-head-1">
+                                <div class="unicorn-ear"></div>
+                                <div class="unicorn-horn"></div>
+                            </div>
+                            <div class="unicorn-head-2">
+                                <div class="unicorn-eye"></div>
+                            </div>
+                        </div>
+                        <div class="unicorn-comfeti"></div>
+                        <div class="grass-group">
+                            <div class="grass-1 grass"></div>
+                            <div class="grass-2 grass"></div>
+                            <div class="grass-3 grass"></div>
+                            <div class="grass-4 grass"></div>
+                            <div class="grass-5 grass"></div>
+                        </div>
+                    </div>
+                </div>                    
+            </div>
               <div class="six wide column">
                 <section>
                   <h3>Languages</h3>
@@ -168,7 +191,8 @@
                 <section>
                   <h3>Wants&#x1f97a;</h3>
                   <p class="tags small bulleted"><span class="tag">TO DO SIT-UPS 100 TIMES A DAY</span><span class="tag">TO LEARN MORE ENGLISH</span><span class="tag">TO TRAVEL TWO TIMES A YEAR</span>
-                    <span class="tag">TO CLIMB GOVERLA</span><span class="tag"> TO BE A PRINCESS </span></p>
+                    <span class="tag">TO CLIMB GOVERLA</span></p>
+                    <button class="theme-switcher">TO BE A PRINCESS</button>
                 </section>
                 <section>
                   <h3>Education</h3>
@@ -202,7 +226,10 @@
             </div>
           </div>
         </div>
-      </article>
+      
+      </div>
+    </article>
     </main>
+    <script src="./js/index.js"></script>
   </body>
 </html>
