@@ -8,6 +8,10 @@
     margin-bottom: 0;
 } */
 
+a {
+    color:#ff1c68;
+}
+
 .theme-switcher {
     position: relative;
     display: flex;
@@ -621,3 +625,4 @@
 .page[style^="border-color"]::before {
     border-color: #ff1c68;
 }
+
