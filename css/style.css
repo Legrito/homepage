@@ -1,0 +1,51 @@
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
+.theme-switcher {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 100px;
+    height: 30px;
+    background-color: #fcb0c9;
+    border: 2px solid #ff1c68;
+}
+
+.theme-switcher::before,
+.theme-switcher::after {
+    position: absolute;
+    display: block;
+    content: "";
+    width: 100%;
+    height: 2px;
+    background-color: #ff1c68;
+    opacity: 0;
+    transition: all 0.3s ease-in;
+}
+
+.theme-switcher::before {
+    top: 0;
+}
+
+.theme-switcher::after {
+    bottom: 0;
+}
+
+.theme-switcher:hover::before,
+.theme-switcher:hover::after {
+    opacity: 1;
+}
+
+.theme-switcher:hover::before {
+    top: -10px;
+}
+
+.theme-switcher:hover::after {
+    bottom: -10px;
+}
+
+
